@@ -62,8 +62,9 @@ console.log(all_superheros); ////['ironman','captainamerica','hulk','doctorstran
 const anotherArray =[1,2,3,[4,5,6],7,[8,9,[10,11]]]
 const real_anotherArray = anotherArray.flat(Infinity) //infinity ki jagah hume array ki depth deni chaiye
 console.log(real_anotherArray); //[1, 2, 3, 4,  5, 6, 7, 8, 9, 10, 11]
+//Array.flat jitni bhi values thi voh sab automatically spread out ho gayi hai
 
-console.log(Array.isArray("Hitesh")) //false
+console.log(Array.isArray("Hitesh")) //false as this is not an array and is a string
 console.log(Array.from("Hitesh")) //[ 'H', 'i', 't', 'e', 's', 'h' ]
 //Array.from can convert any value object strings boolean etc into an array
 

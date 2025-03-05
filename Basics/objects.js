@@ -146,11 +146,11 @@ console.log(instructor); //hitesh
 
 // JSON API
 
-{
-    "name": "hitesh",
-    "courseName": "js in hindi", //this is json api, this is how your api will be shown
-    "price": "free"  
-}
+// {
+//     "name": "hitesh",
+//     "courseName": "js in hindi", //this is json api, this is how your api will be shown
+//     "price": "free"  
+// }
 
 [
     {},

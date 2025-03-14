@@ -64,6 +64,7 @@ else{
     console.log("Don't have user email"); 
 }
 //OUTPUT - Got user email
+
 //And if const userEmail = "" then OUTPUT - Don't have user email
 //const userEmail = [] -> OUTPUT - Got user email
 
